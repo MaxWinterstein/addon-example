@@ -49,7 +49,8 @@ get_quote_offline() {
     local -a quotes
 
     bashio::log.trace "${FUNCNAME[0]}"
-
+    
+    quotes+=("Nice.\\n -Max Winterstein")
     quotes+=("Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.\\n -Samuel Beckett")
     quotes+=("Never give up, for that is just the place and time that the tide will turn.\\n -Harriet Beecher Stowe")
     quotes+=("Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.\\n -Thomas A. Edison")
